@@ -16,6 +16,6 @@
 - Only the `.horizontal-sections` and `.section5` triggers use the `scrub` and `pin` properties.
 - Sections 1, 2, 3, and 4 animations uses `duration` and are not tied to the scroll bar.
 - Use `xPercent` to move the sections inside `.horizontal-sections`.
-- On `.section5`, break "Contact Me" into individual characters so that you can use stagger.
+- On `.section5`, break "Contact Me" into individual characters so that you can use stagger. There's a method in JavaScript called `.split()` which breaks a string into an array. You can then use a `forEach` loop to create individual span elements and put them inside the `<h2>` element using `appendChild`.
 - For the reverse animation when scrolling up, use `toggleActions` for sections 2, 3, and 4.
 - Keep an eye on the scroll bar.
